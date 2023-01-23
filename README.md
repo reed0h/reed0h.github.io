@@ -6,7 +6,7 @@
 + CSS
 + JS
 
-## In-Class Assignmnents ##
+## In-Class Assignments ##
 
 + ICA1
 + ICA2
