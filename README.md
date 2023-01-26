@@ -9,7 +9,7 @@
 ## In-Class Assignments ##
 
 + [ICA1](https://github.com/reed0h/reed0h.github.io/blob/8ce1aef4e1e8f399c126f6eac3472fbf5c1fa9b3/ICA/index.html)
-+ ICA2
++ [ICA2](https://github.com/reed0h/reed0h.github.io/blob/6503561e8eb4e761bdf5a053ae2188ff35450b9e/WA/wa2.html)
 + ICA3
 + ICA4
 + ICA5
