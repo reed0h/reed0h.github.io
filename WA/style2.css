@@ -1,0 +1,64 @@
+/* General page styles */
+
+body {
+    margin: 0;
+  }
+
+h2, p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.25em;
+    line-height: 2.4em;
+}
+  
+  html {
+    font-family: 'Helvetica', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+  
+  .card article {
+    height: 10em;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding-left: .625em;
+    padding-top: 1.7em;
+    color: bisque;
+  }
+  
+    .card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: rgb(34, 0, 255);
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+}
+  
+  .card header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(75,23,197,0));
+    border-radius: 1.5em 1.5em 0 0;
+    height: 3.125em;
+    padding: .625em;
+    margin-top: .9em;
+  }
+  
+  .card footer {
+    background-image: linear-gradient(to bottom,rgba(28,33,174,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+    height: 3.125em;
+    padding: .625em;
+  }
+
+#footertext {
+    font-size: 1.33em;
+    line-height: 2.4em;
+}
+
+  
+  .card article img {
+    max-height: 100%;
+    float: right;
+  }
+  
