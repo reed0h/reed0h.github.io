@@ -1,0 +1,52 @@
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  bottom: 90%;
+  right: 10%;
+  background: rgb(0, 0, 0);
+  width: 50%;
+  color: orchid;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  border-color: orchid;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.overlay1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 5%;
+    right:70%;
+    background: rgb(0, 0, 0);
+    width: 30%;
+    color: powderblue;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: powderblue;
+    border-radius: 30px;
+    font-weight: bold;
+  }
+
