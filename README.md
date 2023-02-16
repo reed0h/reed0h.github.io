@@ -12,7 +12,7 @@
 + [ICA2](https://github.com/reed0h/reed0h.github.io/blob/6503561e8eb4e761bdf5a053ae2188ff35450b9e/WA/wa2.html)
 + [ICA3](https://github.com/reed0h/reed0h.github.io/blob/c19fd47580d788b493940396b9758d4439897248/ICA/ica3.html)
 + [ICA4](https://github.com/reed0h/reed0h.github.io/blob/61a1c759812bc114af5d25197919978fb79fe352/ICA/ica4.html)
-+ ICA5
++ [ICA5](https://github.com/reed0h/reed0h.github.io/blob/5ad8ace0e4882c80f6f205248a5d601602f0af16/ICA/ica5.html)
 + ICA6
 + ICA7
 + ICA8
@@ -30,7 +30,7 @@
 + [WA2](https://github.com/reed0h/reed0h.github.io/blob/dfccc6096f35e55efbc696b0efa0ca932c171764/WA/wa2.html)
 + [WA3](https://github.com/reed0h/reed0h.github.io/blob/dfccc6096f35e55efbc696b0efa0ca932c171764/WA/wa3.html)
 + [WA4](https://github.com/reed0h/reed0h.github.io/blob/61922b7baf5e04193a6f20b479da3a925affe28d/WA/wa4.html)
-+ WA5
++ [WA5](https://github.com/reed0h/reed0h.github.io/blob/5ad8ace0e4882c80f6f205248a5d601602f0af16/WA/wa5.html)
 + WA6
 + WA7
 + WA8
