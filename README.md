@@ -13,7 +13,7 @@
 + [ICA3](https://github.com/reed0h/reed0h.github.io/blob/c19fd47580d788b493940396b9758d4439897248/ICA/ica3.html)
 + [ICA4](https://github.com/reed0h/reed0h.github.io/blob/61a1c759812bc114af5d25197919978fb79fe352/ICA/ica4.html)
 + [ICA5](https://github.com/reed0h/reed0h.github.io/blob/5ad8ace0e4882c80f6f205248a5d601602f0af16/ICA/ica5.html)
-+ ICA6
++ [ICA6](https://github.com/reed0h/reed0h.github.io/blob/16a45f54cda241665b0d4f705b154d98cb74329c/ICA/ICA6/ica6-part1.css)
 + ICA7
 + ICA8
 + ICA9
