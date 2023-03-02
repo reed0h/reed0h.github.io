@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(38, 215, 165);
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: rgb(61, 2, 224);
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    background-color: greenyellow;
+    color: rgb(221, 3, 245);
+}
+
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+#red-ball{
+    background-color: rgb(255, 0, 0);
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    transition: width 3s, height 3s;
+}
+
+#red-ball:hover {
+    width: 500px;
+    height: 500px;
+}
