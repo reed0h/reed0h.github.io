@@ -3,7 +3,7 @@
 ## Projects ##
 
 + HTML
-+ CSS
++ [CSS](https://github.com/reed0h/reed0h.github.io/blob/a26bb750a0c905bb2ad18f48a2c362a9289df867/CSS-Midterm/index.html)
 + JS
 
 ## In-Class Assignments ##
