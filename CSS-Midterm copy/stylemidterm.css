@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(179, 179, 179);
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: rgb(204, 255, 51);
+}
+nav a{
+    width:20vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: 'helvetica', helveticA, serif;
+}
+
+nav a:hover {
+    background-color: rgb(102, 102, 102);
+    color: rgb(204, 255, 51);
+}
+
+
+img{
+    width:100vw;
+    height: 100vh;
+    position:relative;
+}
+
+.home {
+    margin-left: 27vw;
+    margin-right: 27vw;
+}
+
+.text1 {
+    position: absolute;
+    top: -16vh;
+    left: 14vw;
+    font-size: 18vw;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+
+.text1:hover {
+    background-color: rgb(42, 40, 177);
+}
+
+
+.abt {
+    margin-left: 27vw;
+    margin-right: 27vw;
+}
+
+.text2 {
+    position: absolute;
+    top: -16vh;
+    left: 10vw;
+    font-size: 18vw;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+
+.text2:hover {
+    background-color: rgb(42, 40, 177);
+}
+
+.text3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+
+.pf {
+    margin-left: 27vw;
+    margin-right: 27vw;
+}
+
+.text4 {
+    position: absolute;
+    top: -7vh;
+    left: 2vw;
+    font-size: 15vw;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+
+.text4:hover {
+    background-color: rgb(42, 40, 177);
+}
+
+.text5 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+.linky {
+    margin-left: 27vw;
+    margin-right: 27vw;
+}
+
+.text6 {
+    position: absolute;
+    top: -18vh;
+    left: 14vw;
+    font-size: 18vw;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+
+.text6:hover {
+    background-color: rgb(42, 40, 177);
+}
+
+.text7 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+
+.z {
+    margin-left: 27vw;
+    margin-right: 27vw;
+}
+
+.text8 {
+    position: absolute;
+    top: -16vh;
+    left: 2vw;
+    font-size: 18vw;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+
+.text8:hover {
+    background-color: rgb(42, 40, 177);
+}
+
+.text9 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(204, 255, 51);
+}
+
+
+
