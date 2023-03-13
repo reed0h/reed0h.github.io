@@ -17,7 +17,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     color:black;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, Tahoma, sans-serif;
 }
 
 nav a:hover {
