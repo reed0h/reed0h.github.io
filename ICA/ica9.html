@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <style>
+        #button{
+            border: 2px solid darkmagenta;
+            border-radius: 10px;
+            background-color: magenta;
+            padding: 25px 50px;
+            width: 250px;
+        }
+
+        p {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="button">
+        <p>Click me!</p>
+
+    </div>
+    
+<script>
+    console.log("Hello, World!");
+    let btn = document.querySelector("#button");
+    //console.log(btn);
+    function changeBtn() {
+       // console.log("This worked!");
+       btn.textContent = "TEST";
+       btn.style.backgroundcolor = "darkmagenta";
+       btn.style.border = "2px solid magenta";
+       btn.style.color = "white";
+    }
+
+    btn.addEventListener('click', changeBtn);
+
+    function checkGuess() {
+        //alert('I am a placeholder');
+        alert(userGuess);
+    }
+    let guessBtn = queryselector(".guessSubmit");
+    let userGuess = document.querySelector(".guessField");
+    // sonsole.log(guessBtn);
+    guessBtn.addEventListener('click', checkGuess);
+
+</script>
+</body>
+</html>
