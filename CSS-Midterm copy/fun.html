@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APA7 Citation Generator</title>
+    <link rel="stylesheet" href="fun.css">
+</head>
+<body>
+    <h1>APA7 Citation Generator for Websites</h1>
+    <form id="citation-form">
+        <label for="authors">Author(s):</label>
+        <input type="text" id="authors" placeholder="Doe, J., Smith, A., & Johnson, B.">
+        <br>
+        <label for="year">Publication Year:</label>
+        <input type="number" id="year" placeholder="2021">
+        <br>
+        <label for="month">Publication Month:</label>
+        <input type="number" id="month" min="1" max="12" placeholder="4">
+        <br>
+        <label for="day">Publication Day:</label>
+        <input type="number" id="day" min="1" max="31" placeholder="13">
+        <br>
+        <label for="webpageTitle">Webpage Title:</label>
+        <input type="text" id="webpageTitle" placeholder="Example Webpage">
+        <br>
+        <label for="siteName">Site Name:</label>
+        <input type="text" id="siteName" placeholder="Example Website">
+        <br>
+        <label for="url">URL:</label>
+        <input type="url" id="url" placeholder="https://www.example.com">
+        <br>
+        <button type="button" id="generate-button">Generate Citation</button>
+    </form>
+    <h2>Citation:</h2>
+    <p id="citation"></p>
+    <script src="fun.js"></script>
+</body>
+</html>
