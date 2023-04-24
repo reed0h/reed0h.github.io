@@ -28,14 +28,17 @@ function plus() {
 }
 
 function random() {
-    outputInt = randomNumber(0, 100);
+    const choices = [69, 420];
+    outputInt = choices[Math.floor(Math.random() * choices.length)];
     output.textContent = outputInt;
 }
 
-function randomNumber(min, max) {
-    const num = Math.floor(Math.random() * (max - min + 1)) + min;
-    return num;
-  }
+function random() {
+    const choices = [69, 420];
+    outputInt = choices[Math.floor(Math.random() * choices.length)];
+    output.textContent = outputInt;
+}
+
 
 
 
@@ -72,3 +75,25 @@ var sliderOutput = document.querySelector(".slider-output");
 function update() {
   sliderOutput.textContent = slider.value;
 }
+const sineWaveSlider = document.querySelector('.sine-wave-slider');
+sineWaveSlider.addEventListener('input', updateSineWaveSlider);
+
+function updateSineWaveSlider() {
+  // Reverse the slider direction.
+  const reversedValue = 100 - sineWaveSlider.value;
+
+  // Calculate the sine wave position.
+  const amplitude = 75; // Adjust this value to change the height of the sine wave.
+  const frequency = 0.1; // Adjust this value to change the frequency of the sine wave.
+  const offsetY = 100;
+  const sineY = amplitude * Math.sin(reversedValue * frequency) + offsetY;
+
+  // Update the slider position.
+  sineWaveSlider.style.top = `${sineY}px`;
+  sineWaveSlider.style.left = `${reversedValue}%`;
+  const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
+}
+
+
+
+  

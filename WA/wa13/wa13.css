@@ -1,0 +1,24 @@
+.slider-container {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
+  #myRange {
+    width: 5000px; /* Set this value to adjust the slider length */
+    display: inline-block;
+  }
+  .sine-wave-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .sine-wave-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+  }
+    
