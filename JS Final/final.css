@@ -1,0 +1,23 @@
+#puzzle {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .tile {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid #000;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  #winText {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+  }
+  
