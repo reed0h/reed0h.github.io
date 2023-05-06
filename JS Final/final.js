@@ -4,6 +4,8 @@ let winText = document.getElementById('winText');
 
 window.onload = function() {
   let puzzle = document.getElementById('puzzle');
+  const imageURL = document.getElementById('puzzle-image').src; 
+  
   for(let i=0; i<3; i++) {
     for(let j=0; j<3; j++) {
       if(i==2 && j==2) break;
@@ -16,6 +18,11 @@ window.onload = function() {
       tile.addEventListener('click', function() {
         move(tile);
       });
+      
+      
+      tile.style.backgroundImage = `url(${imageURL})`;
+      tile.style.backgroundPosition = `-${j * 100}px -${i * 100}px`;
+
       tiles.push(tile);
       puzzle.appendChild(tile);
     }
@@ -39,7 +46,7 @@ function checkWin() {
   for(let i=0; i<tiles.length; i++) {
     if(tiles[i].innerHTML-1 != tiles[i].pos.x*3 + tiles[i].pos.y) return;
   }
-  winText.innerHTML = "Congratulations, you've won!";
+  winText.innerHTML = "grats m8!";
 }
 
 function shuffle() {
@@ -59,4 +66,13 @@ function getAdjacentTiles(pos) {
     }
   }
   return adjTiles;
+}
+
+function toggleMusic() {
+  var music = document.getElementById('background-music');
+  if (music.paused) {
+    music.play();
+  } else {
+    music.pause();
+  }
 }

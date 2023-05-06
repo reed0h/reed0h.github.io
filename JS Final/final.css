@@ -1,3 +1,55 @@
+@font-face {
+  font-family: 'Runescape UF';
+  src: url('/IMG/runescape_uf.ttf'); /* Change this to the path of your font file */
+}
+
+body {
+  font-family: 'Runescape UF',;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+/* Example: Applying custom font to specific elements */
+h1, button, #winText {
+  font-family: 'Runescape UF', ;
+  color: #ffff00;
+}
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #000; /* Set the background color of the shuffle button to black */
+  color: #ffff00; /* Set the text color of the shuffle button to white for better contrast */
+  border: none;
+  
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.bg-image {
+  position: absolute;
+  z-index: -1;
+  width: 450px; /* 1.5 times the container's width */
+  height: 450px; /* 1.5 times the container's height */
+  object-fit: cover;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+
 #puzzle {
     width: 300px;
     height: 300px;
@@ -9,15 +61,26 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    border: 1px solid #000;
+    border: 1px solid #8B4513; /* Brown border for the pieces */
     line-height: 100px;
     text-align: center;
     font-size: 2em;
-  }
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 1px; /* Add space between the tiles */
+    color: transparent; /* Hide the text */
+    background-size: 300px 300px; /* Set the size of the background image to match the puzzle */
+}
+
   
   #winText {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 2em;
   }
+
+  
+  
+
+  
+  
   

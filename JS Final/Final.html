@@ -1,12 +1,19 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="final.css">
 </head>
 <body>
+    <h1 style="text-align: center;">OSRS Clue Scroll Puzzle</h1>
+    <div class="container">
+        <img src="/IMG/osrs Scroll.png" alt="Background Image" class="bg-image">
     <div id="puzzle"></div>
     <button onclick="shuffle()">Shuffle</button>
     <p id="winText"></p>
+    <audio id="background-music" src="/IMG/Old RuneScape Soundtrack_ Sea Shanty2.mp3" loop autoplay></audio>
+    <button onclick="toggleMusic()">Play/Pause Music</button>
     <script src="final.js"></script>
+    <img id="puzzle-image" src="/IMG/osrsmeme.jpeg" alt="Puzzle Image" style="display: none;">
 </body>
 </html>
